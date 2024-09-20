@@ -1,0 +1,2 @@
+tcpdump
+Comando para ejecutar la captura de tráfico: sudo tcpdump
