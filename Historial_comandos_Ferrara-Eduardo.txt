@@ -1,0 +1,110 @@
+ssh-keygen
+/.ssh/id_rsa.pub
+cat /home/vagrant/.ssh/id_rsa.pub
+mkdir repogit
+cd repogit
+git clone git@github.com:dufer47/TP_AySO.git
+cd TP_AySO/
+ls -l
+pwd
+ls -l
+cat /etc/os-release
+man grep
+grep HOME_URL/etc/os-release
+cd repogit
+TP_AySO/
+cd TP_AySO/
+git log
+ls
+ls -l
+git status
+grep -v "nologin" /etc/passwd
+grep -v "nologin" /etc/passwd | head -n 10
+grep -v "nologin" /etc/passwd | head -n 10 | sort -t: -k7
+grep -v "nologin" /etc/passwd | head -n 10 | sort -t: -k7 > lista_ordenada
+cat lista_ordenada
+sudo apt-get install manpages-es manpages-es-extra
+sudo dpkg-reconfigure locales
+man man
+git add .
+git commit -m "ADD: Listado de usuarios ordenada"
+man man
+sudo apt-get install manpages-es manpages-es-extra
+sudo dpkg-reconfigure locales
+sudo apt-get update
+sudo apt-get install manpages-es manpages-es-extra
+sudo apt-get install manpages-es
+man man
+sudo dnf install -y manpages-es
+man man
+[200~LANG=es_ES.UTF-8 man ls
+LANG=es_ES.UTF-8 man ls
+sudo reboot
+cd repogit
+cd TP_AySO/
+ls -l
+cat /etc/os-release
+grep HOME_URL /etc/os-release
+grep home_url /etc/os-release
+grep HOME_URL /etc/os-release
+grep -i Home_url /etc/os-release
+grep -i home_url /etc/os-release
+grep -i HOME_URL /etc/os-release
+whoami
+id -un
+echo "Usuario=$(whoami)" > datos_usuario.txt
+git status
+git add .
+git config --global user.email "eduf2805@gmail.com" ; git congig --global user.name "dufer47"
+git config --global user.email "eduf2805@gmail.com" ; git config --global user.name "dufer47"
+git commit -m "ADD: agregado 1er ejercicio sobre datos_usuarios.txt"
+git status
+grep "model name"
+grep "model name" /proc/cpuinfo
+grep "model name" /proc/cpuinfo | head -n1
+grep "model name" /proc/cpuinfo | head -n1 >> datos_usuarios.txt
+cat datos_usuario
+cat datos_usuarios
+cat datos_usuarios.txt
+git status
+git commit -m "feat: Añadiendo informacion de CPU"
+git add .
+git commit -m "feat: Añadiendo informacion de CPU"
+man
+man man
+sudo apt-get install manpages-es manpages-es-extra
+sudo dpkg-reconfigure locales
+export LANG=es_ES.UTF-8
+man man
+sudo apt-get install manpages-es manpages-es-extra
+export LC_MESSAGES=es_ES.UTF-8
+nano ~/.bashrc
+man man
+sudo dpkg-reconfigure locales
+man
+man man
+man -k dump
+man tcpdump
+tcpdump
+echo "tcpdump" > comando_dump_net
+echo "Comando para ejecutar la captura de tráfico: sudo tcpdump" >> comando_dump_net
+git add .
+cd repogit/TP_AySO/
+echo "tcpdump" > comando_dump_net
+echo "Comando para ejecutar la captura de tráfico: sudo tcpdump" >> comando_dump_net
+git add comando_dump_net
+git commit -m “ADD: Comando para Capturar y analizar el tráfico de red”
+git commit -m "ADD: Comando para Capturar y analizar el tráfico de red"
+ls
+ls -l
+cat << DATOS >> README.md
+Alumno: Eduardo Ezequiel Ferrara Converti
+Division: 314
+Turno: Noche
+DATOS
+
+[200~
+git status
+git add README.md
+git commit -m "ADD: Informacion del alumno al README.md"
+history -a
